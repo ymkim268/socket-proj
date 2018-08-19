@@ -9,16 +9,16 @@
 ### screenshot results on terminal
 
 #### client calling function sum of 300 numbers
-![client](/img/client.png){:height="50%" width="50%"}
+<img src="/img/client.png" width="50%" height="50%">
 
 #### aws
-![aws](/img/aws.png){:height="50%" width="50%"}
+<img src="/img/aws.png" width="50%" height="50%">
 
 #### server a
-![servera](/img/servera.png){:height="50%" width="50%"}
+<img src="/img/servera.png" width="50%" height="50%">
 
 #### server b
-![serverb](/img/serverb.png){:height="50%" width="50%"}
+<img src="/img/serverb.png" width="50%" height="50%">
 
 #### server c
-![serverc](/img/serverc.png){:height="50%" width="50%"}
+<img src="/img/serverc.png" width="50%" height="50%">
