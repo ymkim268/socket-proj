@@ -22,6 +22,7 @@
 #---------------------------------------------------------------
 all:
 	gcc -Wall reduction.c helper.c servera.c -o servera
+	gcc -Wall servera.c reduction.c helper.c -o servera
 	gcc -Wall serverb.c reduction.c helper.c -o serverb
 	gcc -Wall serverc.c reduction.c helper.c -o serverc
 	gcc -Wall aws.c reduction.c helper.c -o aws
@@ -39,7 +40,9 @@ aws:
 	./aws
 	
 clean:
-	-rm server*
+	-rm serverc
+	-rm serverb
+	-rm servera
 	-rm aws
 	-rm client
 
